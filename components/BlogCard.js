@@ -9,7 +9,6 @@ export default function BlogPost({
     datePublished, 
     slug,
 }) {
-    //console.log("url:" + photo.url)
     return(
         <div className={styles.card}>
             <Link href={"/posts/" + slug}>

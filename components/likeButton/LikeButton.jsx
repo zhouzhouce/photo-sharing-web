@@ -9,7 +9,6 @@ const particleList = Array.from(Array(10));
 export default function LikeButton() {
     const [liked, setLiked] = useState(null);
     const [clicked, setClicked] = useState(false);
-    console.log("url:" + liked)
     return(
             <button
               onClick={() => {
